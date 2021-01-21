@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOME PAGE</title>
+
+</head><style>
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+
+}
+header{
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(bb2.JPG);
+height: 100vh;
+background-size: cover;
+background-position: center;
+
+}
+
+ul{
+float: right;
+list-style-type:none;
+margin-top: 25px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color:white;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+}
+ul li a:hover {
+background-color: #fff;
+color:black;
+}
+.main{
+max-width: 1200px;
+margin: auto;
+background-color:  #fff;
+}
+ul li.active a{
+background-color: #fff;
+color:#000;
+}.title{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+color: white;
+font-size: 80px;
+font-family: italic;
+}
+.button{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-shadow:1px 1px 0 #444;
+}
+
+.btn:hover{
+background-color: #4ded30;
+color:white;
+}
+
+</style>
+<body>
+<form action="welcome.php" method="post">
+<header>
+<div class ="main">
+
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="customer.php">Customers</a> </li>
+<li><a href="index1.php">Transfer</a></li>
+
+</li>
+
+
+
+</ul>
+</div><div class="title"><h1>BASIC BANKING SYSTEM</h1></div>
+</header>
+</body>
+</html>
